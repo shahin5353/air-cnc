@@ -1,0 +1,28 @@
+nav{
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #9488882e;
+
+}
+.navbar-brand{
+    background: -webkit-linear-gradient(25deg,#2BDE8C, #86F244);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    font-weight: 700;
+}
+.nav-item a{
+    color: #000000!important;
+    font-weight: 500;
+
+}
+.navbar-nav .nav-item a{
+    color: #000000!important;
+    font-weight: 500;
+    
+}
+.nav-item:last-child{
+    margin-right: 50px;
+    background: linear-gradient(to right,#2BDE8C, #86F244);
+    border-radius: 10px;
+    
+}

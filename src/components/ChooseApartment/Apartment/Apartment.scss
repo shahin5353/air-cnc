@@ -1,0 +1,36 @@
+a:hover{
+    text-decoration: none;
+}
+.sortBy button{
+    background-color: #FFFFFF;
+    border: 1px solid #707070;
+    border-radius: 15px;
+}
+.apartment{
+    border-bottom: 2px solid #CBCBCB;
+}
+[class~='apartment']:last-of-type  {
+    border-bottom: none;
+}
+.apartment-thumbnail img{
+    border-radius: 15px;
+    height: 23vh;
+    width: 100%;
+}
+.rating svg{
+    color: #3fef14;
+}
+.rating p{
+    font-weight: 700;
+}
+.night{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.total{
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+}
